@@ -12,7 +12,7 @@
 #
 # show()
 
-name = input("enter a name"))
+name = input("enter a name")
 body_part = input("enter a body part")
 adj = input("enter an adjective")
 noun = input("enter a noun")
@@ -40,20 +40,20 @@ noun6 = input("enter a noun")
 noun7 = input("enter a noun")
 
 def show():
-    print("FUN IN A MUD SLIDE")
-    print("Whoosh! Troop Leader " + name + "went sliding. He landed " + body_part + "-first in "+ adj +"mud.")
-    print("'It’s okay,' he called back to the "+noun+". I meant to do that. I was just trying to show you how much fun
-    it is to go " + adverb+". ”)
-    print(exclamation +  " ! George" + past_tense_verb + ". He lay on his "+body_part1+" and
-    down in the mud "+body_part2+"-first.")
-    print(noun1+”! Chris shouted. 'It’s" + adj1+"-man to the rescue!' He got on his "+noun2+
-    "and " + body_part3+"-first down the "+noun3+" and into the "+noun4+".")
-    print("“Hey, George!” Alex cried out."+verb+“ fast!”)
-    print("George grinned as Alex threw a  pile of " +noun5+ "right at him. There was " +noun5+" in his "
-    +body_part3+ ", in his " +body_part4+ ", and under his " +noun6+". Some mud had even " + past_tense_verb2 +" its way into his " + noun7+ " and onto
-    his " +body_part1+".")
+    return f'''FUN IN A MUD SLIDE
+    Whoosh! Troop Leader {name} went sliding. He landed { body_part } -first in { adj } mud.
+    "It’s okay", he called back to the { noun }. I meant to do that. I was just trying to show you how much fun
+    it is to go { adverb }.
+    {exclamation} ! George { past_tense_verb }. He lay on his {body_part1} and
+    down in the mud {body_part2}-first.
+    {noun1}! Chris shouted It’s {adj1}-man to the rescue! He got on his {noun}
+    and {body_part3}-first down the {noun3} and into the {noun4}.)
+    Hey, George! Alex cried out. {verb} fast!
+    George grinned as Alex threw a pile of {noun5} right at him. There was {noun5} in his
+    {body_part3}, in his {body_part4}, and under his {noun6}. Some mud had even {past_tense_verb2} its way into his {noun7} and onto
+    his {body_part1}.'''
 
-show()
+print(show())
 
 # # This was really fun!
 # # Reproducible activity from

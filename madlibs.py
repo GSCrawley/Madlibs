@@ -1,17 +1,3 @@
-# print("Enter a color ")
-# color = [input()]
-# print("enter a plural noun ")
-# plural_noun = [input()]
-# print("enter a celebrity's name")
-# celebrity = [input()]
-#
-# def show():
-# print("roses are "+color)
-# print(plural_noun + "are blue")
-# print("I love " + celebrity)
-#
-# show()
-
 name = input("enter a name")
 body_part = input("enter a body part")
 adj = input("enter an adjective")
